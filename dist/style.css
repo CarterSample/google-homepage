@@ -1,0 +1,108 @@
+html {
+  display: block;
+}
+
+body {
+   font-family: arial, serif;
+   font-size: 14px;
+   margin: 7px 20px;
+      }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+a {
+  display: block;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  color: black;
+  opacity: .6;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+#sign_in {
+  font-weight: bold;
+  color: white;
+  background-color: rgb(53, 114, 247);
+  border-radius: 2px;
+  padding: 7px 12px;
+  margin: 7px 10px 0px 7px;
+}
+
+#google_apps {
+  height: 16px;
+  vertical_align: middle;
+  padding_right: 4px;
+}
+
+#logo {
+  display: block;
+  margin: 75px auto 0px auto;
+  height: auto;
+  width: 10%;
+  padding: 3%;
+}
+
+#search_bar {
+  position: relative;
+  display: block;
+  margin: auto;
+  height: auto;
+  border-radius: 50px;
+  width: 450px;
+  height: 30px;
+  border-width: 0;
+  border: 1px solid rgba(184, 178, 178, 0.527);
+  background-image: url(https://bjcrossland.github.io/google-homepage/images/magnifying-glass.svg);
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: 16px 8px;
+  text-indent: 40px;
+}
+
+#mainsearch {
+  display: flex;
+  justify-content: center;
+}
+
+#buttons {
+  display: flex;
+  coulmn-count: 2;
+  column-width: 200px;
+  justify-content: center;
+  margin: 20px;
+}
+
+#buttons li a {
+  background-color: rgb(35, 35, 35, 10%);
+  margin: 0px 7px;
+  border-radius: 2px;
+  padding: 10px 17px;
+  z-index: 2;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(35, 35, 35, 10%);
+}
